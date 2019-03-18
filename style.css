@@ -1,0 +1,494 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0px;
+    font-family: Calibri, Verdana, Helvetica, Geneva, sans-serif;	
+   
+}
+
+#firstview{
+    
+    min-height:100vh;
+}
+
+.top-bar{
+    
+    width:100%;
+    
+    background-color:#00B340 ;
+	font-size: 1.5vw;
+	
+    color: #00B340;
+    
+}
+
+.img-bar{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 20px #00B340;
+    border-top: solid 20px #00B340;
+    background-color: #00B340;
+                
+}
+
+.img-bar-container{
+    
+    width: 13%;
+    float: left;    
+}
+
+.img-bar-item{
+    
+    width: 100%;
+    
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6{
+    display:none;
+}
+
+.logo-container{
+    text-align: center;
+   
+}
+
+.logo{
+    width: 50%;
+    max-width: 480px;
+    min-width: 250px;
+        
+}
+
+#welcome{
+    
+    max-width: 1000px;
+    min-width: 150px;
+    margin:auto;
+    
+}
+#welcome-caption {
+    margin-right: 0.67em;
+    margin-left: 0.67em;
+    font-size: 23px;
+    /*font-style: italic;*/
+    font-weight: lighter;
+    text-align: center;
+    color: #FA6C02;
+    border-bottom: 1px solid #FA6C02;    
+}
+
+#text {
+    color: #666;
+    max-width: 1600px;
+    min-width: 150px;
+    font-size: 17px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+
+}
+
+#textLeftTop{
+     justify-content: center;
+     align-items: center;
+}
+
+#textLeftBot{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#textRight{
+    justify-content: center;
+    align-items: center;
+}
+
+#textUberUns{
+    padding-left: 30px;
+    padding-right:30px;
+
+}
+
+#textPraxenTermine{
+    padding-left: 30px;
+    padding-right:30px;
+
+}
+
+#textLeistungen{
+    padding-left: 30px;
+    padding-right:30px;
+
+}
+
+
+
+#caption{
+   
+   
+    margin-bottom: 0px;
+    /*font-style: italic;*/
+    font-weight: lighter;
+    font-size: 24px;
+    color: #00B340;
+}
+
+#logo-fischer{
+    
+    margin-right: 0.67em;
+    margin-left: 0.67em;
+    margin-bottom: 20px;
+    
+    font-weight: lighter;
+    font-size: 25px;
+    
+}
+
+.text-container{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.67em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.boxCaption{
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-weight: normal;
+    margin: 0 0 1em 0;
+}
+
+#text-top{
+    width:100%;
+    text-align: justify;
+    hyphens: auto;
+    
+}
+
+#text-bot-right{
+    min-width:400px;
+    width:40%;
+    display: flex;
+    /*background-color: palevioletred;*/
+    margin-bottom: 20px;
+}
+
+#text-bot-left{
+    min-width:200px;
+    width:60%;
+    
+    margin-bottom: 20px;
+   
+    
+}
+
+.spotlight .image img {
+    display: block;
+    border-radius: 100%;
+    width: 100%;
+    max-width: 260px;
+    min-width: 200px;
+}
+
+.spotlight .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+.spotlight{
+    border-top: solid 2px #eeeeee;
+    padding-top: 3em;
+    width:100%;
+
+}
+
+
+/*--------------------------------------------------*/
+
+.greenContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#00B340; 
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    height:80%;
+    width:100%;
+    margin-top: 50px;
+    
+}
+
+#mapContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    
+}
+
+#containerRiesa{
+   
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding-bottom: 30px;
+    
+}
+
+#containerStrehla{
+   
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#mapRiesa {
+    width:87%;
+    max-width: 800px;
+
+   
+}
+
+ #mapStrehla {
+    width:87%;
+    max-width: 800px;      
+    
+}
+
+.responsiveContainer {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+  overflow: hidden;
+  box-shadow: 1px 6px 10px rgba(0,0,0,0.5);
+  
+   
+ 
+}
+
+.responsiveContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.mapCaption {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.mapAddress {
+    font-size: 20px;
+    margin-top: 20px;   
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+     
+}
+
+
+
+
+
+#footer{
+    text-align: center;
+    background-color: 	#494b4d;
+    color: white;
+    margin:0px;
+    padding-top: 40px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#kontakt{
+    font-size: 19px;
+}
+
+#copyright{
+    font-size: 19px;
+}
+
+#KontaktAufnehmen{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+
+
+
+@media (min-width: 1024px) { 
+#img1, #img2, #img3, #img4, #img5, #img6{
+    display:block;
+}
+   .boxCaption{
+       font-size: 1.5em;
+       line-height: 1.3em;
+       font-weight: normal;
+       margin: 0 0 1em 0;
+    }
+
+
+    .spotlight{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    #textLeftBot{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .spotlight .image {
+        width:50%;
+        max-width: 260px;
+        margin-right: 50px;
+    }
+
+    #leftMargin{
+        margin-right: 0;
+        margin-left: 50px;
+    }
+
+    .spotlight .content {
+        width:50%;
+    }
+
+
+    #welcome-caption {
+        margin-right: 0.67em;
+        margin-left: 0.67em;
+        font-size: 28px;
+        /*font-style: italic;*/
+        font-weight: lighter;
+        text-align: center;
+        color: #FA6C02;
+        border-bottom: 1px solid #FA6C02;
+    }
+
+    #caption{
+        font-size: 30px;
+    }
+
+.greenContainer{
+   
+    background:#00B340; 
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    height:500px;
+    width:100%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+    
+    
+#mapContainer{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    width: 100%;
+   
+}
+
+#mapRiesa {
+        
+    width: 90%;
+    max-width: 640px;
+    box-shadow: 1px 6px 20px rgba(0,0,0,0.2);
+    
+        
+}
+
+#mapStrehla {
+    
+    width: 90%;
+    max-width: 640px;
+    box-shadow: 1px 6px 20px rgba(0,0,0,0.2);
+}
+
+#containerRiesa{
+  
+    height: 100%;
+    width: 50%;
+    padding-right: 20px;    
+    
+}
+
+#containerStrehla{
+   
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+}
+    
+    
+.text-container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width:70em;
+    font-size: 21px;
+   
+}
+    
+#text-bot-right{
+    margin-bottom: 0px;
+    padding-left: 5em;
+    
+}
+#text-bot-left{
+    margin-bottom: 0px;
+   
+    
+}
+    
+#text{
+        font-size: 20px;
+}
+    
+.datenschutz{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: normal;
+}
+    
+}
