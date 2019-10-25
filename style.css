@@ -174,9 +174,10 @@ body{
 
 .boxCaption{
     font-size: 1.5em;
-    line-height: 1.3em;
     font-weight: normal;
-    margin: 0 0 1em 0;
+    margin: 0 0 0.5em 0;
+    border-bottom: 3px #00B340 solid;
+    display:inline-block;
 }
 
 #text-top{
