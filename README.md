@@ -1,2 +1,2 @@
 # Webseite Logopädie Fischer & Fischer
-Das ist das Git-Repository der Website Logopädie Fischer & Fischer! :fish:
+This is the repo of the website Logopädie Fischer & Fischer! :fish:
